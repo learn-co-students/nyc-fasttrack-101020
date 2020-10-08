@@ -2,11 +2,9 @@
 
 ## Students Will Be Able To:
 
-- [ ] Write a loop using `times`
-- [ ] Write a loop using `while`
-- [ ] Use the `break` keyword
-- [ ] Understand the idea of a counter
-- [ ] Break out of a loop based on a counter
+- [ ] Use `.each` to iterate over an array
+- [ ] Loop through a nested array
+- [ ] Find other useful array methods
 
 ## Getting each item in an array
 
