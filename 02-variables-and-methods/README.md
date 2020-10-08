@@ -36,8 +36,8 @@
 
 - When we are programming, our values have different _types_
 - We want to do different operations depending on what kind of data something is
-- If it's a number, we want to do "mathy" things with it
-- If it's text, we want to do "texty" things with it
+- If it's a number, we want to do "math-y" things with it
+- If it's text, we want to do "text-y" things with it
 - We're going to focus on Numbers, Strings, and Arrays
 
 ### Numbers
