@@ -14,9 +14,16 @@ We will be getting into Ruby and handling error messages that come up as we prog
 
 We will be reviewing Day 1 topics. We'll also have one new topic, iteration. The rest of the day will be spent working in groups on projects to apply the skills you've learned over the weekend. We'll end the weekend with an assessment where you'll have the chance to demonstrate what you learned! 
 
+**A Note on Labs**
+
+In the schedule below, there's time built in for working on labs. The labs you’ll be working on for the weekend are available on the Technical Application - Ruby track on [learn.co](learn.co). You don't have to complete every single lab during the time allotted - focus on the labs listed out in the schedule for each section!
+
 ## Schedule
 
 ### Day 1
+
+[Zoom link](https://flatironschool.zoom.us/j/93712350990?pwd=YVFKQ2paMWc2UHRHQXc5b2J3MDYxQT09)
+- Passcode: 895911
 
 #### Morning
 - **10:00am - 10:15am**: Arrivals
@@ -47,6 +54,9 @@ We will be reviewing Day 1 topics. We'll also have one new topic, iteration. The
   - Bonus Exercise (for review tomorrow): https://repl.it/@ihollander/PairGeneratorHomework
 
 ### Day 2
+
+[Zoom Link](https://flatironschool.zoom.us/j/96808964577?pwd=SDFMSnVqQ3BqS1FyelNuaGdnNzJrZz09)
+- Passcode: 422387
 
 #### Morning
 - **10:00am - 10:15am**: Welcome Back!
