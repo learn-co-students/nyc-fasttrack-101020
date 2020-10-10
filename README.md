@@ -29,10 +29,10 @@ In the schedule below, there's time built in for working on labs. The labs youâ€
 - **10:00am - 10:15am**: Arrivals
 - **10:15am - 10:30am**: Welcome + Introductions
 - **10:30am - 10:45am**: Lecture: Intro to Ruby (Ian)
-- **10:45am - 11:05am**: Lab Time
+- **10:45am - 11:10am**: Lab Time
   - Introduction: Hello World, Welcome To Tic Tac Toe
   - Debugging: Reading Error Messages
-- **11:05am - 12:05pm**: Lecture: Variables, Types, and Methods
+- **11:10am - 12:05pm**: Lecture: Variables, Types, and Methods
 - **12:05pm - 12:15pm**: Break (10 mins)
 - **12:15pm - 1:00pm**: Lab Time
   - Variables: Variable Assignment Lab, Tic Tac Toe Board

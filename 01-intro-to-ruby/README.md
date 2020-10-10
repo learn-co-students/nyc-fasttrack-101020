@@ -8,12 +8,6 @@ There are many ways to run Ruby code; folks have different environments (Mac OS;
 
 We're going to work on [REPL.it](repl.it) for most lectures so let's see how we can use that to run some Ruby code.
 
-A Ruby program is made up of 3 things:
-
-- Keywords (`if`, `else`, `def`...)
-- Literal data (strings, numbers)
-- Variables & Methods
-
 In the grand tradition of programmers, let's print 'hello world' from the `main.rb` file.
 
 ```rb
@@ -27,6 +21,19 @@ puts "hello, world"
 - other ways to test our code: write code in REPL and puts it; or run IRB (also works in IDE)
 
 ## Errors
+
+A Ruby program is made up of 3 things:
+
+- Keywords (`if`, `else`, `def`...)
+- Literal data (strings, numbers)
+- Variables & Methods
+
+If we don't use those (or don't play by Ruby's rules) we'll get an error!
+
+```rb
+puts hello
+```
+
 Errors can be scary for new developers, but they should be your best friend; think of it like this: you're taking a math test, and instead of just relying on yourself to check if your answer works, you can ask the teacher for help; they won't write your answer for you but they will tell you where to fix your approach!
 
 Common errors: 
