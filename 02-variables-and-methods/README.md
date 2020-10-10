@@ -13,6 +13,8 @@
 
 ## Variables
 
+When we're writing a program, think of it like creating a little universe. The "things" in the universe is the _literal data_ that we care about (like text, numbers, etc). We can use _variables_ to name the "things" (data) we care about. The computer is helping us to create this universe so we need a way to communicate with it; when I say `name = "Ian"` and then ask my computer for `name` it knows where to look to find that.
+
 - When we use `""` to create a string, or mention a number like `5`, we are using it _literally_
 - We don't always know what the value is going to be when we are writing the program - we need a way to refer to data without using the literal value
 - We can use _variables_! 

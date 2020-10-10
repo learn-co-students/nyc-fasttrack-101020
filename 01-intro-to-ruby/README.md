@@ -1,9 +1,18 @@
 # Intro to Ruby 
 
+## What is Ruby?
+Ruby is a programming language designed for programmer happiness. It's meant to have a friendly syntax, which makes it nicer to learn than a lot of other languages. Compared to other languages like C, Java, even Javascript, it's much more pleasant to read and write!
+
 ## Running Ruby Code
 There are many ways to run Ruby code; folks have different environments (Mac OS; Windows; Linux) so the two easiest ways we've found are REPL.it (for lectures) and the IDE on learn.co (labs).
 
 We're going to work on [REPL.it](repl.it) for most lectures so let's see how we can use that to run some Ruby code.
+
+A Ruby program is made up of 3 things:
+
+- Keywords (`if`, `else`, `def`...)
+- Literal data (strings, numbers)
+- Variables & Methods
 
 In the grand tradition of programmers, let's print 'hello world' from the `main.rb` file.
 
