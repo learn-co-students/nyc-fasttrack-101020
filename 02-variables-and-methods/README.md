@@ -81,14 +81,17 @@ There are a couple different 'types' of numbers in Ruby: Integers (whole numbers
 => 2.5
 ```
 
-You can coerce numbers from one type to another with `.to_i` (convert to integer) or `.to_f` (convert to float):
+You can coerce numbers from one type to another with `.to_i` (convert to integer) or `.to_f` (convert to float). Let's say we're writing a program to keep track of how much Halloween candy we have and want to know the average amount:
 
 ```rb
-daily_temperatures = 67 + 62 + 55
+house1_candies = 5
+house2_candies = 2
+house3_candies = 1
 
-total_days = 3
+houses_visited = 3
+total_candies = house1_candies + house2_candies + house3_candies
 
-average_temperature = daily_temperatures / total_days.to_f
+average_candies_per_house = total_candies / houses_visited.to_f
 ```
 
 ### Strings
@@ -108,9 +111,10 @@ You can also use a special syntax with double-quoted strings that will let you _
 
 ```rb
 name = "Ian"
-age = 99
+fave_candy = "peanut m&ms"
 
-puts "Hi my name is #{name} and I'm #{age} years old"
+puts "Hi my name is " + name + " and I love " + fave_candy
+puts "Hi my name is #{name} and I love #{fave_candy}"
 ```
 
 Inside of the string, any variables inside of the "#{}" will be evaluated and inserted into the string. This is helpful for putting together complex strings instead of relying on concatenation with `+`.
@@ -118,12 +122,10 @@ Inside of the string, any variables inside of the "#{}" will be evaluated and in
 `.length` reports on the string's length:
 
 ```ruby
-> "abracadabra".length
-=> 11
-> "Zap".length
+> name.length
 => 3
-> "Zap!".length
-=> 4
+> fave_candy.length
+=> 11
 ```
 
 `.upcase` creates an UPPERCASE version of the string
@@ -154,7 +156,7 @@ An array is a data structure meaning it is a structure that holds data! An array
 
 An analogy - You can think of an array as a row of boxes! Each box contains one single thing and on the outside of each box is a number to identify the box's position. In computer science, we start counting from 0 instead of 1. So the first box will be labeled `0`, the second box will be labeled `1`, etc. Assigning a variable name to an array would be like giving a name to identify the whole row of boxes.
 
-<img src="pics/boxes.gif" style="max-height:250px"/>
+<img src="../pics/boxes.gif" style="max-height:250px"/>
 
 - Arrays are lists of values
 - We use `[]` to create arrays
@@ -182,6 +184,18 @@ An analogy - You can think of an array as a row of boxes! Each box contains one 
 
 - Notice that array indices start at `0` - the first element is the 0th element, the second element has index `1`, etc.
 
+- Arrays are useful for storing an _ordered collection_ of data. For example, we could use an array to write the candy example from before more elegantly:
+
+```rb
+house_candies = [5, 2, 1]
+
+total_candies = house_candies[0] + house_candies[1] + house_candies[2]
+# or house_candies.sum
+houses_visited = house_candies.length
+
+average_candies_per_house = total_candies / houses_visited.to_f
+```
+
 ### Nil
 - Sometimes we want to represent that 'nothing is there'
 - We use a special value `nil` to mean 'nothing'
@@ -208,22 +222,22 @@ It'll pop up, so that's what it means when you see it.
 
 ```ruby
 # Define a method
-def cowboy_greeting
+def spooky_greeting
   # body of method
-  greeting = "🤠 Howdy, Isabel 🤠"
+  greeting = "🎃 Trick or Treat, Isabel 🎃"
 
-  puts "🤠" * 17
+  puts "🎃" * greeting.length
   puts greeting
-  puts "🤠" * 17
+  puts "🎃" * greeting.length
 end
 ```
 
 - We run the method ("call" or "invoke" the method) by calling its name (with or without parentheses - Ruby is flexible!)
 
 ```ruby
-cowboy_greeting()
+spooky_greeting()
 # or
-cowboy_greeting
+spooky_greeting
 ```
 
 ## Arguments
@@ -234,19 +248,20 @@ cowboy_greeting
 - We can refer to those arguments in the body of the method, and customize what the method does
 
 ```ruby
-def cowboy_greeting(name)
-  greeting = "🤠 Howdy, #{name} 🤠"
+def spooky_greeting(name)
+  greeting = "🎃 Trick or Treat, #{name} 🎃"
 
-  puts "🤠" * 17
+  puts "🎃" * greeting.length
   puts greeting
-  puts "🤠" * 17
+  puts "🎃" * greeting.length
 end
 ```
 
 - Then we "pass in" values when we call the method
 
 ```ruby
-cowboy_greeting("Isabel")
+spooky_greeting("Isabel")
+spooky_greeting("Ian")
 ```
 
 If we want methods to accept more than one argument, we mention multiple arguments when we define the method:

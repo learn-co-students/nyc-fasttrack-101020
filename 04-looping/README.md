@@ -10,20 +10,20 @@
 
 ### Intro
 
-Let's say I want to write a method to print "I <3 Ruby" 10 times:
+Let's say I want to write a method to print "Trick or Treat 🎃" 10 times:
 
 ```rb
-def loves_ruby
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
+def trick_or_treat
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
 end
 ```
 
@@ -34,7 +34,7 @@ What's the problem with this code?
 
 ```ruby
 10.times do
-  puts "I <3 Ruby"
+  puts "Trick or Treat 🎃"
 end
 ```
 
@@ -67,7 +67,7 @@ end
 puts car_trip
 ```
 
-If we need to know which step of the loop we are in, we can use the `| |` pipes - almost like a method definition
+If we need to know which step of the loop we are in, we can use the `| |` pipes - almost like a method definition ("block parameter")
 
 ```ruby
 multiples_of_two = []
