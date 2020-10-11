@@ -1,18 +1,18 @@
 ######## Looping ########
 
-# Write a method that prints I <3 Ruby 10 times
+# Write a method that prints "Trick or Treat 🎃" 10 times
 
-def loves_ruby
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
-  puts "I <3 Ruby"
+def trick_or_treat
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
+  puts "Trick or Treat 🎃"
 end
 
 # loves_ruby()

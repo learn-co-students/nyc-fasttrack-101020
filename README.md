@@ -69,9 +69,10 @@ In the schedule below, there's time built in for working on labs. The labs youâ€
 
 #### Afternoon
 - **12:30pm - 1:15pm**: Lecture: Iteration
-- **1:15pm - 2:15pm**:  Pairing Lab Time
-  - Tic Tac Toe: `TicTacToe.rb`
+- **1:15pm - 2:15pm**: Open work time
+  - continue pairing; work on labs; ask questions; or start the assessment!
 - **2:15pm - 2:45pm**: AMA about Flatiron
-- **2:45pm - 3:45pm**: Assessment time
-  - You can also take a break or review materials; the assessment isn't due until 8pm
+- **2:45pm - 3:45pm**: Open work time
+  - continue pairing; work on labs; ask questions; or start the assessment!
+  - you'll have until 8pm to finish the assessment
 - **3:50** Wrap up!
